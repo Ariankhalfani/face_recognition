@@ -7,6 +7,8 @@ This facial recognition system is designed for CPU utilization on light single-b
 ### For Raspberry Pi or Linux-based Computers:
 
 ```bash
+### For Raspberry Pi or Linux-based Computers:
+
 sudo apt install cmake build-essential pkg-config git
 sudo apt install libjpeg-dev libtiff-dev libjasper-dev libpng-dev libwebp-dev libopenexr-dev
 sudo apt install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev libxvidcore-dev libx264-dev libdc1394-22-dev libgstreamer-plugins-base1.0-dev libgstreamer1.0-dev
@@ -15,7 +17,7 @@ sudo apt install libatlas-base-dev liblapacke-dev gfortran
 sudo apt install libhdf5-dev libhdf5-103
 sudo apt install python3-dev python3-pip python3-numpy
 
-or use the code below if youre using conda enviroment
+### Or use the code below if youre using conda enviroment
 
 conda install -c conda-forge cmake pkg-config git
 conda install -c conda-forge libjpeg-turbo libtiff libjasper libpng libwebp libopenexr
